@@ -1,6 +1,4 @@
 from datetime import datetime, timezone
-from flask_sqlalchemy import SQLAlchemy
-
 from user_model import db, User
 
 
