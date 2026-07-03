@@ -16,7 +16,7 @@ import { api } from '../../services/api';
 const LoginForm = () => {
   const navigate = useNavigate();
   const location = useLocation();
-  const { login, setIsAuthenticated } = useAuth();
+  const { login } = useAuth();
   const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -191,7 +191,7 @@ const LoginForm = () => {
 
       <Typography variant="body2" textAlign="center" sx={{ mt: 2 }}>
         Don't have an account?{' '}
-        <Button onClick={() => navigate('/signup')} stx={{ testTransform: 'none' }}>
+        <Button onClick={() => navigate('/signup')} variant="text" sx={{ textTransform: 'none' }}>
           Sign up
         </Button>
       </Typography>

@@ -1,3 +1,4 @@
+import React from 'react';
 import { Box, Container } from '@mui/material';
 import Navbar from '../components/navigation/Navbar';
 import Footer from '../components/navigation/Footer';
