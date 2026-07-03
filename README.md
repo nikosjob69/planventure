@@ -89,7 +89,7 @@ VITE_API_URL=http://localhost:5000
 npm run dev
 ```
 
-Visit `http://localhost:5173` to see the application.
+Visit `http://localhost:5175` to see the application.
 
 ## 🏗️ Tech Stack
 
